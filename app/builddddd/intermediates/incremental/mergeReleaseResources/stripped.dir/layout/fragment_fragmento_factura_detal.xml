@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+    android:padding="10dp"
+
+   >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Factura_Detal"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView_valor_factura"
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+
+                android:foregroundGravity="center"
+                android:gravity="left"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextText_buscar_fragmento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:autofillHints="nombre_producto"
+                android:ems="10"
+                android:hint="@string/Buscar"
+                android:inputType="textCapSentences|textPersonName"
+                android:textColor="@color/black"
+                android:textColorHint="@color/secondary_text" />
+
+            <Button
+                android:id="@+id/button_escanear"
+                android:layout_width="27dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="escaner2"
+                app:icon="@drawable/ic_baseline_qr_code_scanner_24" />
+
+            <Button
+                android:id="@+id/button_borrar_pedido"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="borrar_pedido"
+                app:icon="@drawable/ic_no_comprar" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_facturar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout"
+                 />
+        </LinearLayout>
+
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton_nuevo_producto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="48dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_input_add" />
+</RelativeLayout>

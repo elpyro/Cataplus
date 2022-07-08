@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context="com.cataplus.facturacionycatalogospdf.FragmentEmpresa">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="-2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_logo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.2"
+                    android:gravity="center"
+                    android:text="@string/Logo"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView_incluir_foto1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.2"
+                    app:srcCompat="@drawable/agregar_foto"
+                    tools:srcCompat="@drawable/agregar_foto" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editText_incluir_nombre_empresa"
+                    android:autofillHints="nombre_producto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.2"
+                    android:ems="10"
+                    android:hint="@string/nombre"
+                    android:inputType="textCapSentences|textAutoCorrect|textPersonName"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/secondary_text"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/textView_documento_empresa"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.2"
+                    android:ems="10"
+                    android:hint="@string/Documento"
+                    android:inputType="textCapSentences|textAutoCorrect|textPersonName"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/secondary_text"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                tools:ignore="Autofill"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editText_correo_empresa"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.2"
+                    android:ems="10"
+                    android:hint="@string/Correo"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/secondary_text"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/textView_dominio_empresa"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.2"
+                    android:ems="10"
+                    android:hint="@string/Dominio"
+                    android:inputType="textEmailAddress|textEmailSubject"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/secondary_text"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editText_telefono1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.2"
+                    android:ems="10"
+                    android:hint="@string/Telefono1"
+                    android:inputType="phone"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/secondary_text"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/textView_telefono2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.2"
+                    android:ems="10"
+                    android:hint="@string/Telefono2"
+                    android:inputType="phone"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/secondary_text"
+                    android:textSize="16sp" /> />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTest_pais_empresa"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.2"
+                    android:ems="10"
+                    android:hint="@string/Pais"
+                    android:inputType="textCapSentences|textAutoCorrect|textPersonName"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/secondary_text"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editText_ciudad_empresa"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.2"
+                    android:ems="10"
+                    android:hint="@string/Ciudad"
+                    android:inputType="textCapSentences|textAutoCorrect|textPersonName"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/secondary_text"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                tools:ignore="Autofill">
+
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <EditText
+                            android:id="@+id/editTextTextMultiLine_direccion_empresa"
+                            android:layout_width="match_parent"
+                            android:layout_height="69dp"
+                            android:ems="10"
+                            android:gravity="start|top"
+                            android:hint="@string/Direccion"
+                            android:inputType="textMultiLine|textCapSentences|textAutoCorrect|textPersonName"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/secondary_text"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colordegadrado1"
+                android:orientation="horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="120dp"
+                android:layout_marginRight="120dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/button_guardar_empresa"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Guardar" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+        ads:adSize="FULL_BANNER"
+        ads:adUnitId="ca-app-pub-5390342068041092/6838582039"></com.google.android.gms.ads.AdView>
+</LinearLayout>

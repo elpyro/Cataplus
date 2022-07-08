@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\content_activity_login.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\content_activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_contenedor_fragmento_mayor.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_contenedor_fragmento_mayor.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_fragmento_consultar_productos.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_consultar_productos.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_scanner_registro_editar_agregar_producto.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_scanner_registro_editar_agregar_producto.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_fragmento_inventario_inventario.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_inventario_inventario.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\item_producto.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\item_producto.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_fragmento_catalogos.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_catalogos.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_suscripcion.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_suscripcion.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_comprar.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_comprar.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_vista_pdf.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_vista_pdf.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\item_registro.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\item_registro.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_fragmento_incluir_producto.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_incluir_producto.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_factura_pdf.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_factura_pdf.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_fragmento_agregar_cliente.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_agregar_cliente.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_scanner_incluir_productos.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_scanner_incluir_productos.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\item_registro_producto.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\item_registro_producto.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_scanner.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_fragmento_factura_mayor_detalle.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_factura_mayor_detalle.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_factura_detal.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_factura_detal.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_fragemento_registro_editar_agregar_producto.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragemento_registro_editar_agregar_producto.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_fragmento_consultar_clientes.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_consultar_clientes.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_escaner_codigo.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_escaner_codigo.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_factura_pdf.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_factura_pdf.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_facturar_producto.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_facturar_producto.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_principal.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_fragmento_inventario_detalle.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_inventario_detalle.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_frangmento_factura_mayor_inventario.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_frangmento_factura_mayor_inventario.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\nav_header_principal.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\nav_header_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_suscripcion2.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_suscripcion2.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_contenedor.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_contenedor.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\content_principal.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\content_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_fragmento_factura_detal.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_factura_detal.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_fragmento_registro_editar.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_registro_editar.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\item_cliente.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\item_cliente.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_fragmento_invetario.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_invetario.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_fragmento_login.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_main_scanear.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_main_scanear.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_fragmento_registro_editar_producto.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_registro_editar_producto.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_empresa.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_empresa.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_fragmento__registros.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento__registros.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_contenedor_fragmentos_inventario.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_contenedor_fragmentos_inventario.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\compras.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\compras.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\app_bar_principal.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\app_bar_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_consultar_productos.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_consultar_productos.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_item.xml",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_item.xml"
+    }
+]

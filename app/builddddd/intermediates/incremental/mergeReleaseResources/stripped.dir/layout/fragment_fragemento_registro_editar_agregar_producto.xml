@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.cataplus.facturacionycatalogospdf.Fragemento_registro_editar_agregarProducto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextText_buscar_fragmento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_weight="3"
+                android:autofillHints="nombre_producto"
+                android:ems="10"
+                android:hint="@string/Buscar"
+                android:inputType="textCapSentences|textPersonName"
+                android:textColor="@color/black"
+                android:textColorHint="@color/secondary_text" />
+
+            <Button
+                android:id="@+id/button_escanear"
+                android:layout_width="27dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+
+                app:icon="@drawable/ic_baseline_qr_code_scanner_24" />
+
+            <Button
+                android:id="@+id/button_borrar_pedido"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+
+                app:icon="@drawable/ic_no_comprar" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="horizontal">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_facturar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

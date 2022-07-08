@@ -1,0 +1,8 @@
+<resources>
+
+
+    <string-array name="categorias">
+        <item>General</item>
+        <item>Comida</item>
+    </string-array>
+</resources>

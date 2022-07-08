@@ -1,0 +1,390 @@
+[
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_fragmento_invetario.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_invetario.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_diseno.jpg.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\diseno.jpg"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_subscriptions_24.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_baseline_subscriptions_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_inventario.png.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\inventario.png"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_cataplus5.jpg.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\cataplus5.jpg"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_catalogo.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_catalogo.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_fragmento__registros.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento__registros.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_agregar_foto.png.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable-v24\\agregar_foto.png"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_person_add_alt_1_24.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_baseline_person_add_alt_1_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_frangmento_factura_mayor_inventario.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_frangmento_factura_mayor_inventario.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_fragmento_registro_editar_producto.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_registro_editar_producto.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_item_cliente.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\item_cliente.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_content_principal.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\content_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_facturar_producto.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_facturar_producto.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_camera.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_share_24.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_baseline_share_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_cataplus6.jpg.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\cataplus6.jpg"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_fragmento_factura_mayor_detalle.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_factura_mayor_detalle.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_item.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_cataplus2.png.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\cataplus2.png"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_fragmento_inventario_inventario.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_inventario_inventario.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_contenedor_fragmento_mayor.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_contenedor_fragmento_mayor.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_compras.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\compras.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_person_remove_24.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_baseline_person_remove_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_fragmento_registro_editar.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_registro_editar.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_empresa.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_empresa.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_nav_header_principal.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\nav_header_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_productos.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_productos.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_contenedor.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_contenedor.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_content_activity_login.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\content_activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_comprar.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_comprar.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_cataplus7.jpg.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\cataplus7.jpg"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_contenedor_fragmentos_inventario.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_contenedor_fragmentos_inventario.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_gallery.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_fragmento_factura_detal.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_factura_detal.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_item_producto.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\item_producto.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_empresa.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_empresa.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_arriba.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_arriba.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\navigation_primary_details_nav_graph.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\navigation\\primary_details_nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_editar.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_editar.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_cataplus4.png.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\cataplus4.png"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_qr_code_scanner_24.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_baseline_qr_code_scanner_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_agregar_foto_jpeg.jpeg.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\agregar_foto_jpeg.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\navigation_primary_details_sub_nav_graph.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\navigation\\primary_details_sub_nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main_scanear.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_main_scanear.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_scanner_incluir_productos.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_scanner_incluir_productos.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_fragmento_consultar_productos.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_consultar_productos.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_fragemento_registro_editar_agregar_producto.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragemento_registro_editar_agregar_producto.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_no_comprar.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_no_comprar.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_baseline_home_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_fragmento_catalogos.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_catalogos.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_scanner.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\menu_principal.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\menu\\principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_playlist_add_check_24.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_baseline_playlist_add_check_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_item_registro.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\item_registro.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_fragmento_agregar_cliente.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_agregar_cliente.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_suscripcion2.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_suscripcion2.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_vista_pdf.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_vista_pdf.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_login_24.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_baseline_login_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_item_registro_producto.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\item_registro_producto.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_factura_detal.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_factura_detal.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_app_bar_principal.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\app_bar_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_suscripcion.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_suscripcion.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_scanner_registro_editar_agregar_producto.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_scanner_registro_editar_agregar_producto.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_preferencias.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_preferencias.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_cataplus.png.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\cataplus.png"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_fondo_degradado.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\fondo_degradado.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_point_of_sale_24.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_baseline_point_of_sale_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_principal.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_fragmento_inventario_detalle.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_inventario_detalle.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_factura_pdf.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_factura_pdf.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_factura_pdf.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\activity_factura_pdf.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_abajo.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_abajo.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\xml_root_preferences.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\xml\\root_preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_fragmento_incluir_producto.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_incluir_producto.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_google_original_logo_icon_146496.png.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\google_original_logo_icon_146496.png"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_clientes.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_clientes.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_receipt_long_24.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_baseline_receipt_long_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_fragmento_consultar_clientes.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\layout\\fragment_fragmento_consultar_clientes.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_credit_card_24.xml.flat",
+        "source": "C:\\Users\\eloy_\\AndroidStudioProjects\\FacturacionyCatalogosPDF\\app\\src\\main\\res\\drawable\\ic_baseline_credit_card_24.xml"
+    }
+]

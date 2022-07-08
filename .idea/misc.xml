@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/compra.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/fondo_degradado.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_abajo.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_arriba.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_baseline_credit_card_24.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_baseline_flashlight_on_24.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_baseline_keyboard_return_24.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_baseline_light_mode_24.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_baseline_login_24.xml" value="0.29907407407407405" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_baseline_person_add_alt_1_24.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_baseline_person_remove_24.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_baseline_playlist_add_check_24.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_baseline_point_of_sale_24.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_baseline_qr_code_scanner_24.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_baseline_receipt_long_24.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_baseline_subscriptions_24.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_catalogo.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_clientes.xml" value="0.2462962962962963" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_editar.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_empresa.xml" value="0.31851851851851853" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_menu_camera.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_no_comprar.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_preferencias.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/ic_productos.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/drawable/side_nav_bar.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout-sw600dp/fragment_registrofacturacion_detail.xml" value="0.253125" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_agregar_clientes.xml" value="0.3375" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_comprar.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_consultar_clientes.xml" value="0.1" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_consultar_productos.xml" value="0.1883495145631068" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_datos_empresa.xml" value="0.1" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_detalle_producto.xml" value="0.1875" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_editar_registro.xml" value="0.25" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_editar_registro_producto.xml" value="0.25" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_escaner_codigo.xml" value="0.1859375" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_factura_pdf.xml" value="0.22" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_facturar.xml" value="0.25" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_facturar_producto.xml" value="0.25" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_incluir_productos.xml" value="0.33" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_inventario_existencia.xml" value="0.1875" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_main2.xml" value="0.3375" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_main_scanear.xml" value="0.1" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_mayor_inventario.xml" value="0.3375" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_principal.xml" value="0.1043956043956044" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_publicidad.xml" value="0.3375" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_registro_editar_agregar_producto.xml" value="0.25" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_registrofacturacion_detail.xml" value="0.3375" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_scanear.xml" value="0.1859375" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_scanner.xml" value="0.25" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_scanner_incluir_productos.xml" value="0.29814814814814816" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_scanner_registro_editar_agregar_producto.xml" value="0.3375" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_suscripcion.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_suscripcion2.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_vista_pdf.xml" value="0.25" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/app_bar_principal.xml" value="0.1" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/compras.xml" value="0.33" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/content_activity_inventario_existencia.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/content_activity_login.xml" value="0.3375" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/content_principal.xml" value="0.2967032967032967" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_activity_publicidad.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_contenedor.xml" value="0.1" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_contenedor_fragmento_mayor.xml" value="0.25" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_contenedor_fragmentos_inventario.xml" value="0.1" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_datos_de_empresa.xml" value="0.12129629629629629" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_empresa.xml" value="0.22" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_factura_detal.xml" value="0.22" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_factura_pdf.xml" value="0.25" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_first.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragemento_registro_editar_agregar_producto.xml" value="0.22" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragmento__registros.xml" value="0.18" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragmento_agregar_cliente.xml" value="0.22" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragmento_catalogos.xml" value="0.25" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragmento_consultar_clientes.xml" value="0.18" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragmento_consultar_productos.xml" value="0.1" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragmento_factura_detal.xml" value="0.22" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragmento_factura_mayor_detalle.xml" value="0.22" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragmento_incluir_producto.xml" value="0.21" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragmento_inventario_detalle.xml" value="0.22" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragmento_inventario_inventario.xml" value="0.22" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragmento_invetario.xml" value="0.25" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragmento_login.xml" value="0.33" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragmento_producto_informacion.xml" value="0.22" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragmento_registro_editar.xml" value="0.25" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragmento_registro_editar_producto.xml" value="0.22" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragmento_reporte_compra_venta.xml" value="0.33" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragmento_reportes.xml" value="0.3375" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_frangmento_factura_mayor_inventario.xml" value="0.168141592920354" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_gallery.xml" value="0.22" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_item.xml" value="0.33" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_item_list.xml" value="0.25" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_login.xml" value="0.1537037037037037" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_login_fragmento.xml" value="0.1" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_registrofacturacion_detail.xml" value="0.3234375" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_second.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/item_cliente.xml" value="0.25" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/item_factura_detal.xml" value="0.2747875354107649" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/item_producto.xml" value="0.21287128712871287" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/item_registro.xml" value="0.5" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/item_registro_producto.xml" value="0.5" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/nav_header_principal.xml" value="0.25" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/provider_paths.xml" value="0.3375" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/registrofacturacion_list_content.xml" value="0.3375" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/layout/switch_item.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/menu/menu_activity_publicidad.xml" value="0.3375" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/menu/menu_agregar.xml" value="0.22" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/menu/menu_guardar.xml" value="0.22" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/menu/principal.xml" value="0.22" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.209375" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/xml/provider_paths.xml" value="0.1859375" />
+        <entry key="..\:/Users/eloy_/AndroidStudioProjects/FacturacionyCatalogosPDF/app/src/main/res/xml/root_preferences.xml" value="0.22" />
+        <entry key="..\:/Users/eloy_/FacturacionyCatalogosPDF/app/src/main/res/layout/activity_vista_pdf.xml" value="0.16875" />
+        <entry key="..\:/Users/eloy_/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragmento__registros.xml" value="0.28888888888888886" />
+        <entry key="..\:/Users/eloy_/FacturacionyCatalogosPDF/app/src/main/res/layout/fragment_fragmento_reportes.xml" value="0.28888888888888886" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

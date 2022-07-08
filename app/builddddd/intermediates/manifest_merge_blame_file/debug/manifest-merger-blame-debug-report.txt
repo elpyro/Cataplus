@@ -1,0 +1,950 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cataplus.facturacionycatalogospdf"
+4    android:versionCode="2"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml
+10    <!-- Permisos a la camara, lectura y escritura en medios externos -->
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:6:5-65
+11-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:6:22-62
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:7:5-80
+12-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:7:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:8:5-81
+13-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:9:5-67
+14-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.vending.BILLING" />
+15-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:10:5-63
+15-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:10:22-60
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+16-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:12:5-79
+16-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:12:22-76
+17    <uses-feature
+17-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:25:5-27:36
+18        android:name="android.hardware.camera"
+18-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:26:9-47
+19        android:required="false" />
+19-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:27:9-33
+20    <uses-feature
+20-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:28:5-30:36
+21        android:name="android.hardware.camera.front"
+21-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:29:9-53
+22        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+22-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:30:9-33
+23    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+24    <uses-feature
+24-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:33:5-35:36
+25        android:name="android.hardware.camera.autofocus"
+25-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:34:9-57
+26        android:required="false" />
+26-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:35:9-33
+27    <uses-feature
+27-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:36:5-38:36
+28        android:name="android.hardware.camera.flash"
+28-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:37:9-53
+29        android:required="false" />
+29-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:38:9-33
+30    <uses-feature
+30-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:39:5-41:36
+31        android:name="android.hardware.screen.landscape"
+31-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:40:9-57
+32        android:required="false" />
+32-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:41:9-33
+33    <uses-feature
+33-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:42:5-44:36
+34        android:name="android.hardware.wifi"
+34-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:43:9-45
+35        android:required="false" />
+35-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:44:9-33
+36
+37    <uses-permission android:name="android.permission.WAKE_LOCK" />
+37-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\14292a61aa604dc39dd0e7e08a9296f1\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:24:5-68
+37-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\14292a61aa604dc39dd0e7e08a9296f1\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:24:22-65
+38    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- Android package visibility setting -->
+38-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:25:5-79
+38-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:25:22-76
+39    <queries>
+39-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:28:5-44:15
+40
+41        <!-- For browser content -->
+42        <intent>
+42-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:31:9-37:18
+43            <action android:name="android.intent.action.VIEW" />
+43-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:97:17-69
+43-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:97:25-66
+44
+45            <category android:name="android.intent.category.BROWSABLE" />
+45-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:100:17-78
+45-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:100:27-75
+46
+47            <data android:scheme="https" />
+47-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:102:17-81
+47-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:102:23-78
+48        </intent>
+49        <!-- End of browser content -->
+50        <!-- For CustomTabsService -->
+51        <intent>
+51-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:40:9-42:18
+52            <action android:name="android.support.customtabs.action.CustomTabsService" />
+52-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:41:13-90
+52-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:41:21-87
+53        </intent>
+54        <!-- End of CustomTabsService -->
+55    </queries>
+56
+57    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+57-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\1d4b8a4caa0d0798b6a2fb3d69328b21\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:26:5-110
+57-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\1d4b8a4caa0d0798b6a2fb3d69328b21\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:26:22-107
+58    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+58-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:27:5-81
+58-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:27:22-78
+59    <uses-permission android:name="com.android.vending.BILLING" />
+59-->[com.android.billingclient:billing:4.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\86876696abcf3df27da9cc6893ac2aca\transformed\jetified-billing-4.0.0\AndroidManifest.xml:10:5-67
+59-->[com.android.billingclient:billing:4.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\86876696abcf3df27da9cc6893ac2aca\transformed\jetified-billing-4.0.0\AndroidManifest.xml:10:22-64
+60
+61    <application
+61-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:12:5-105:19
+62        android:allowBackup="true"
+62-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:13:9-35
+63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+63-->[androidx.core:core:1.5.0] C:\Users\eloy_\.gradle\caches\transforms-3\1c82df0e58fbd0ba966b0ae0d34659c1\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+64        android:debuggable="true"
+65        android:extractNativeLibs="false"
+66        android:icon="@mipmap/ic_launcher"
+66-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:14:9-43
+67        android:label="@string/app_name"
+67-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:15:9-41
+68        android:requestLegacyExternalStorage="true"
+68-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:16:9-52
+69        android:roundIcon="@mipmap/ic_launcher_round"
+69-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:17:9-54
+70        android:supportsRtl="true"
+70-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:18:9-35
+71        android:testOnly="true"
+72        android:theme="@style/Theme.FacturacionYCatalogosPDF" >
+72-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:19:9-62
+73        <activity
+73-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:20:9-22:39
+74            android:name="com.cataplus.facturacionycatalogospdf.Activity_suscripcion"
+74-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:21:13-86
+75            android:exported="true" />
+75-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:22:13-36
+76        <activity
+76-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:23:9-25:39
+77            android:name="com.cataplus.facturacionycatalogospdf.Activity_comprar"
+77-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:24:13-82
+78            android:exported="true" />
+78-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:25:13-36
+79        <activity
+79-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:26:9-28:39
+80            android:name="com.cataplus.facturacionycatalogospdf.Suscripcion"
+80-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:27:13-77
+81            android:exported="true" />
+81-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:28:13-36
+82        <activity
+82-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:29:9-31:39
+83            android:name="com.cataplus.facturacionycatalogospdf.Activity_login"
+83-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:30:13-80
+84            android:exported="true" />
+84-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:31:13-36
+85        <activity
+85-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:32:9-34:39
+86            android:name="com.cataplus.facturacionycatalogospdf.Activity_scanner_codigosVisiblesInvisibles"
+86-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:33:13-108
+87            android:exported="true" />
+87-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:34:13-36
+88        <activity
+88-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:35:9-37:39
+89            android:name="com.cataplus.facturacionycatalogospdf.Activity_simple_foto"
+89-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:36:13-86
+90            android:exported="true" />
+90-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:37:13-36
+91        <activity
+91-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:38:9-40:39
+92            android:name="com.cataplus.facturacionycatalogospdf.Activity_scanner_registro_editar_AgregarProducto"
+92-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:39:13-114
+93            android:exported="true" />
+93-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:40:13-36
+94        <activity
+94-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:41:9-43:39
+95            android:name="com.cataplus.facturacionycatalogospdf.Factura_pdf"
+95-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:42:13-77
+96            android:exported="true" />
+96-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:43:13-36
+97        <activity
+97-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:44:9-46:39
+98            android:name="com.cataplus.facturacionycatalogospdf.Activity_scanner_incluir_productos"
+98-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:45:13-100
+99            android:exported="true" />
+99-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:46:13-36
+100        <activity
+100-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:47:9-49:39
+101            android:name="com.cataplus.facturacionycatalogospdf.Activity_scanner"
+101-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:48:13-82
+102            android:exported="true" />
+102-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:49:13-36
+103        <activity
+103-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:50:9-52:39
+104            android:name="com.cataplus.facturacionycatalogospdf.Vista_pdf"
+104-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:51:13-75
+105            android:exported="true" />
+105-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:52:13-36
+106        <activity
+106-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:53:9-63:20
+107            android:name="com.cataplus.facturacionycatalogospdf.Principal"
+107-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:54:13-75
+108            android:configChanges="orientation|screenSize"
+108-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:55:13-59
+109            android:label="@string/app_name"
+109-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:56:13-45
+110            android:theme="@style/Theme.FacturacionYCatalogosPDF.NoActionBar" >
+110-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:57:13-78
+111            <intent-filter>
+111-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:58:13-62:29
+112                <action android:name="android.intent.action.MAIN" />
+112-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:59:17-69
+112-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:59:25-66
+113
+114                <category android:name="android.intent.category.LAUNCHER" />
+114-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:61:17-77
+114-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:61:27-74
+115            </intent-filter>
+116        </activity>
+117        <activity
+117-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:64:9-66:62
+118            android:name="com.cataplus.facturacionycatalogospdf.MainActivity"
+118-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:65:13-78
+119            android:configChanges="orientation|screenSize" /> <!-- LIBRERIA DE RECORTE DE IMAGENES, ADICIONALMENTE AGREGARLAS EN BUILD.GRADLE DE LA APP -->
+119-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:66:13-59
+120        <activity
+120-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:67:9-69:59
+121            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+121-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:68:13-76
+122            android:theme="@style/Base.Theme.AppCompat" />
+122-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:69:13-56
+123
+124        <provider
+124-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:71:9-79:20
+125            android:name="androidx.core.content.FileProvider"
+125-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:72:13-62
+126            android:authorities="com.mydomain.fileprovider"
+126-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:73:13-60
+127            android:exported="false"
+127-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:74:13-37
+128            android:grantUriPermissions="true" >
+128-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:75:13-47
+129            <meta-data
+129-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:76:13-78:58
+130                android:name="android.support.FILE_PROVIDER_PATHS"
+130-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:77:17-67
+131                android:resource="@xml/provider_paths" />
+131-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:78:17-55
+132        </provider> <!-- metadata para facebook -->
+133        <!-- <meta-data -->
+134        <!-- tools:replace="android:value" -->
+135        <!-- android:name="com.facebook.sdk.ApplicationId" -->
+136        <!-- android:value="@string/facebook_application_id"/> -->
+137        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+138        <meta-data
+138-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:85:9-87:70
+139            android:name="com.google.android.gms.ads.APPLICATION_ID"
+139-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:86:13-69
+140            android:value="ca-app-pub-3940256099942544~3347511713" />
+140-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:87:13-67
+141
+142        <activity
+142-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:89:9-92:48
+143            android:name="com.facebook.FacebookActivity"
+143-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:90:13-57
+144            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+144-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:91:13-96
+145            android:label="@string/app_name"
+145-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:92:13-45
+146            android:theme="@style/com_facebook_activity_theme" />
+146-->[com.facebook.android:facebook-common:4.42.0] C:\Users\eloy_\.gradle\caches\transforms-3\918ec5c1813d51e982e1d9945ca4e232\transformed\jetified-facebook-common-4.42.0\AndroidManifest.xml:32:13-63
+147        <activity
+147-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:93:9-104:20
+148            android:name="com.facebook.CustomTabActivity"
+148-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:94:13-58
+149            android:exported="true" >
+149-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:95:13-36
+150            <intent-filter>
+150-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:96:13-103:29
+151                <action android:name="android.intent.action.VIEW" />
+151-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:97:17-69
+151-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:97:25-66
+152
+153                <category android:name="android.intent.category.DEFAULT" />
+153-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:99:17-76
+153-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:99:27-73
+154                <category android:name="android.intent.category.BROWSABLE" />
+154-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:100:17-78
+154-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:100:27-75
+155
+156                <data android:scheme="@string/facebook_login_protocol_schema" />
+156-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:102:17-81
+156-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:102:23-78
+157            </intent-filter>
+158            <intent-filter>
+158-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:92:13-99:29
+159                <action android:name="android.intent.action.VIEW" />
+159-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:97:17-69
+159-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:97:25-66
+160
+161                <category android:name="android.intent.category.DEFAULT" />
+161-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:99:17-76
+161-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:99:27-73
+162                <category android:name="android.intent.category.BROWSABLE" />
+162-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:100:17-78
+162-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:100:27-75
+163
+164                <data android:scheme="@string/facebook_login_protocol_scheme" />
+164-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:102:17-81
+164-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:102:23-78
+165            </intent-filter>
+166        </activity>
+167
+168        <meta-data
+168-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:16:9-18:69
+169            android:name="com.google.android.gms.version"
+169-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:17:13-58
+170            android:value="@integer/google_play_services_version" />
+170-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:18:13-66
+171        <meta-data
+171-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:19:9-21:63
+172            android:name="com.facebook.sdk.ApplicationId"
+172-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:20:13-58
+173            android:value="@string/facebook_application_id" />
+173-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:21:13-60
+174
+175        <activity
+175-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:23:9-27:61
+176            android:name="com.firebase.ui.auth.KickoffActivity"
+176-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:24:13-64
+177            android:exported="false"
+177-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:25:13-37
+178            android:label=""
+178-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:26:13-29
+179            android:theme="@style/FirebaseUI.Transparent" />
+179-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:27:13-58
+180        <activity
+180-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:28:9-32:61
+181            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+181-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:29:13-76
+182            android:exported="false"
+182-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:30:13-37
+183            android:label=""
+183-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:31:13-29
+184            android:theme="@style/FirebaseUI.Transparent" />
+184-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:32:13-58
+185        <activity
+185-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:33:9-37:61
+186            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+186-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:34:13-86
+187            android:exported="false"
+187-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:35:13-37
+188            android:label=""
+188-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:36:13-29
+189            android:theme="@style/FirebaseUI.Transparent" />
+189-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:37:13-58
+190        <activity
+190-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:38:9-42:58
+191            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+191-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:39:13-81
+192            android:exported="false"
+192-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:40:13-37
+193            android:label="@string/fui_title_recover_password_activity"
+193-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:41:13-72
+194            android:windowSoftInputMode="adjustResize" />
+194-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:42:13-55
+195        <activity
+195-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:43:9-47:58
+196            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+196-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:44:13-71
+197            android:exported="false"
+197-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:45:13-37
+198            android:label="@string/fui_sign_in_default"
+198-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:46:13-56
+199            android:windowSoftInputMode="adjustResize" />
+199-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:47:13-55
+200        <activity
+200-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:48:9-52:77
+201            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+201-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:49:13-71
+202            android:exported="false"
+202-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:50:13-37
+203            android:label="@string/fui_sign_in_with_phone_number"
+203-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:51:13-66
+204            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+204-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:52:13-74
+205        <activity
+205-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:53:9-57:58
+206            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+206-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:54:13-76
+207            android:exported="false"
+207-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:55:13-37
+208            android:label="@string/fui_title_welcome_back_idp_prompt"
+208-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:56:13-70
+209            android:windowSoftInputMode="adjustResize" />
+209-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:57:13-55
+210        <activity
+210-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:58:9-62:58
+211            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+211-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:59:13-83
+212            android:exported="false"
+212-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:60:13-37
+213            android:label="@string/fui_title_welcome_back_password_prompt"
+213-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:61:13-75
+214            android:windowSoftInputMode="adjustResize" />
+214-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:62:13-55
+215        <activity
+215-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:63:9-67:58
+216            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+216-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:64:13-84
+217            android:exported="false"
+217-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:65:13-37
+218            android:label="@string/fui_title_welcome_back_password_prompt"
+218-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:66:13-75
+219            android:windowSoftInputMode="adjustResize" />
+219-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:67:13-55
+220        <activity
+220-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:68:9-73:58
+221            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+221-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:69:13-82
+222            android:exported="false"
+222-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:70:13-37
+223            android:label=""
+223-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:71:13-29
+224            android:theme="@style/FirebaseUI.Transparent"
+224-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:72:13-58
+225            android:windowSoftInputMode="adjustResize" />
+225-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:73:13-55
+226        <activity
+226-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:74:9-78:58
+227            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+227-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:75:13-88
+228            android:exported="false"
+228-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:76:13-37
+229            android:label="@string/fui_sign_in_default"
+229-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:77:13-56
+230            android:windowSoftInputMode="adjustResize" />
+230-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:78:13-55
+231        <activity
+231-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:79:9-82:65
+232            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+232-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:80:13-80
+233            android:exported="false"
+233-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:81:13-37
+234            android:label="@string/fui_default_toolbar_title" />
+234-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:82:13-62
+235
+236        <provider
+236-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:102:9-106:38
+237            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+237-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:103:13-79
+238            android:authorities="com.cataplus.facturacionycatalogospdf.authuiinitprovider"
+238-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:104:13-70
+239            android:exported="false"
+239-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:105:13-37
+240            android:initOrder="90" />
+240-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\d8ed211cf867c127790753bd71c2d6db\transformed\jetified-firebase-ui-auth-7.2.0\AndroidManifest.xml:106:13-35
+241
+242        <activity
+242-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:47:9-53:63
+243            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+243-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:48:13-74
+244            android:clearTaskOnLaunch="true"
+244-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:49:13-45
+245            android:screenOrientation="sensorLandscape"
+245-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:50:13-56
+246            android:stateNotNeeded="true"
+246-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:51:13-42
+247            android:theme="@style/zxing_CaptureTheme"
+247-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:52:13-54
+248            android:windowSoftInputMode="stateAlwaysHidden" />
+248-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\a235af0ce53c2ddbc0783fef9f4a22e2\transformed\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:53:13-60
+249
+250        <service
+250-->[com.google.firebase:firebase-firestore:23.0.4] C:\Users\eloy_\.gradle\caches\transforms-3\a3465276429eb412448da871fa323abc\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:17:9-23:19
+251            android:name="com.google.firebase.components.ComponentDiscoveryService"
+251-->[com.google.firebase:firebase-firestore:23.0.4] C:\Users\eloy_\.gradle\caches\transforms-3\a3465276429eb412448da871fa323abc\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:18:13-84
+252            android:directBootAware="true"
+252-->[com.google.firebase:firebase-common:20.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+253            android:exported="false" >
+253-->[com.google.firebase:firebase-firestore:23.0.4] C:\Users\eloy_\.gradle\caches\transforms-3\a3465276429eb412448da871fa323abc\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:19:13-37
+254            <meta-data
+254-->[com.google.firebase:firebase-firestore:23.0.4] C:\Users\eloy_\.gradle\caches\transforms-3\a3465276429eb412448da871fa323abc\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:20:13-22:85
+255                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+255-->[com.google.firebase:firebase-firestore:23.0.4] C:\Users\eloy_\.gradle\caches\transforms-3\a3465276429eb412448da871fa323abc\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:21:17-111
+256                android:value="com.google.firebase.components.ComponentRegistrar" />
+256-->[com.google.firebase:firebase-firestore:23.0.4] C:\Users\eloy_\.gradle\caches\transforms-3\a3465276429eb412448da871fa323abc\transformed\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:22:17-82
+257            <meta-data
+257-->[com.google.firebase:firebase-database:20.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:32:13-34:85
+258                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+258-->[com.google.firebase:firebase-database:20.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:33:17-109
+259                android:value="com.google.firebase.components.ComponentRegistrar" />
+259-->[com.google.firebase:firebase-database:20.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:34:17-82
+260            <meta-data
+260-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\773b1eff15c8b6f77bc17bf53b62a785\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+261                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+261-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\773b1eff15c8b6f77bc17bf53b62a785\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+262                android:value="com.google.firebase.components.ComponentRegistrar" />
+262-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\773b1eff15c8b6f77bc17bf53b62a785\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+263            <meta-data
+263-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+264                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+264-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+265                android:value="com.google.firebase.components.ComponentRegistrar" />
+265-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+266            <meta-data
+266-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\14292a61aa604dc39dd0e7e08a9296f1\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:30:13-32:85
+267                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+267-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\14292a61aa604dc39dd0e7e08a9296f1\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:31:17-139
+268                android:value="com.google.firebase.components.ComponentRegistrar" />
+268-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\14292a61aa604dc39dd0e7e08a9296f1\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:32:17-82
+269            <meta-data
+269-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\045ee3e52baef22a6f354e1b63ce65b6\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+270                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+270-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\045ee3e52baef22a6f354e1b63ce65b6\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+271                android:value="com.google.firebase.components.ComponentRegistrar" />
+271-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\045ee3e52baef22a6f354e1b63ce65b6\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+272        </service>
+273
+274        <activity android:name="com.facebook.CustomTabMainActivity" />
+274-->[com.facebook.android:facebook-common:4.42.0] C:\Users\eloy_\.gradle\caches\transforms-3\918ec5c1813d51e982e1d9945ca4e232\transformed\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:9-71
+274-->[com.facebook.android:facebook-common:4.42.0] C:\Users\eloy_\.gradle\caches\transforms-3\918ec5c1813d51e982e1d9945ca4e232\transformed\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:19-68
+275        <activity
+275-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+276            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+276-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+277            android:excludeFromRecents="true"
+277-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+278            android:exported="true"
+278-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+279            android:launchMode="singleTask"
+279-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+280            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+280-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+281            <intent-filter>
+281-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+282                <action android:name="android.intent.action.VIEW" />
+282-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:97:17-69
+282-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:97:25-66
+283
+284                <category android:name="android.intent.category.DEFAULT" />
+284-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:99:17-76
+284-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:99:27-73
+285                <category android:name="android.intent.category.BROWSABLE" />
+285-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:100:17-78
+285-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:100:27-75
+286
+287                <data
+287-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:102:17-81
+288                    android:host="firebase.auth"
+289                    android:path="/"
+290                    android:scheme="genericidp" />
+290-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:102:23-78
+291            </intent-filter>
+292        </activity>
+293        <activity
+293-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+294            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+294-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+295            android:excludeFromRecents="true"
+295-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+296            android:exported="true"
+296-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+297            android:launchMode="singleTask"
+297-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+298            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+298-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+299            <intent-filter>
+299-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+300                <action android:name="android.intent.action.VIEW" />
+300-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:97:17-69
+300-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:97:25-66
+301
+302                <category android:name="android.intent.category.DEFAULT" />
+302-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:99:17-76
+302-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:99:27-73
+303                <category android:name="android.intent.category.BROWSABLE" />
+303-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:100:17-78
+303-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:100:27-75
+304
+305                <data
+305-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:102:17-81
+306                    android:host="firebase.auth"
+307                    android:path="/"
+308                    android:scheme="recaptcha" />
+308-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:102:23-78
+309            </intent-filter>
+310        </activity>
+311
+312        <service
+312-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+313            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+313-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+314            android:enabled="true"
+314-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+315            android:exported="false" >
+315-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+316            <intent-filter>
+316-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+317                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+317-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+317-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\eloy_\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+318
+319                <category android:name="android.intent.category.DEFAULT" />
+319-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:99:17-76
+319-->C:\Users\eloy_\AndroidStudioProjects\FacturacionyCatalogosPDF\app\src\main\AndroidManifest.xml:99:27-73
+320            </intent-filter>
+321        </service>
+322
+323        <activity
+323-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\1ac2da030058e750bbb98cddd50d3cc1\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
+324            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+324-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\1ac2da030058e750bbb98cddd50d3cc1\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
+325            android:excludeFromRecents="true"
+325-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\1ac2da030058e750bbb98cddd50d3cc1\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
+326            android:exported="false"
+326-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\1ac2da030058e750bbb98cddd50d3cc1\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
+327            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+327-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\1ac2da030058e750bbb98cddd50d3cc1\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
+328        <!--
+329            Service handling Google Sign-In user revocation. For apps that do not integrate with
+330            Google Sign-In, this service will never be started.
+331        -->
+332        <service
+332-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\1ac2da030058e750bbb98cddd50d3cc1\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
+333            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+333-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\1ac2da030058e750bbb98cddd50d3cc1\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
+334            android:exported="true"
+334-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\1ac2da030058e750bbb98cddd50d3cc1\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
+335            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+335-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\1ac2da030058e750bbb98cddd50d3cc1\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
+336            android:visibleToInstantApps="true" />
+336-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\1ac2da030058e750bbb98cddd50d3cc1\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
+337
+338        <activity
+338-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\eloy_\.gradle\caches\transforms-3\a3c2e4bc22f797c21ec2b870a413637a\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+339            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+339-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\eloy_\.gradle\caches\transforms-3\a3c2e4bc22f797c21ec2b870a413637a\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+340            android:exported="false"
+340-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\eloy_\.gradle\caches\transforms-3\a3c2e4bc22f797c21ec2b870a413637a\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+341            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+341-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\eloy_\.gradle\caches\transforms-3\a3c2e4bc22f797c21ec2b870a413637a\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+342
+343        <provider
+343-->[com.google.firebase:firebase-common:20.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+344            android:name="com.google.firebase.provider.FirebaseInitProvider"
+344-->[com.google.firebase:firebase-common:20.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+345            android:authorities="com.cataplus.facturacionycatalogospdf.firebaseinitprovider"
+345-->[com.google.firebase:firebase-common:20.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+346            android:directBootAware="true"
+346-->[com.google.firebase:firebase-common:20.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+347            android:exported="false"
+347-->[com.google.firebase:firebase-common:20.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+348            android:initOrder="100" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+348-->[com.google.firebase:firebase-common:20.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+349        <activity
+349-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:49:9-53:64
+350            android:name="com.google.android.gms.ads.AdActivity"
+350-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:50:13-65
+351            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+351-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:51:13-122
+352            android:exported="false"
+352-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:52:13-37
+353            android:theme="@android:style/Theme.Translucent" />
+353-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:53:13-61
+354
+355        <provider
+355-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:55:9-59:39
+356            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+356-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:56:13-76
+357            android:authorities="com.cataplus.facturacionycatalogospdf.mobileadsinitprovider"
+357-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:57:13-73
+358            android:exported="false"
+358-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:58:13-37
+359            android:initOrder="100" />
+359-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:59:13-36
+360
+361        <service
+361-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:61:9-64:40
+362            android:name="com.google.android.gms.ads.AdService"
+362-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:62:13-64
+363            android:enabled="true"
+363-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:63:13-35
+364            android:exported="false" />
+364-->[com.google.android.gms:play-services-ads-lite:20.4.0] C:\Users\eloy_\.gradle\caches\transforms-3\7fd7a731f6e2388adea13bd202de5489\transformed\jetified-play-services-ads-lite-20.4.0\AndroidManifest.xml:64:13-37
+365
+366        <receiver
+366-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\1d4b8a4caa0d0798b6a2fb3d69328b21\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:29:9-33:20
+367            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+367-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\1d4b8a4caa0d0798b6a2fb3d69328b21\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:30:13-85
+368            android:enabled="true"
+368-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\1d4b8a4caa0d0798b6a2fb3d69328b21\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:31:13-35
+369            android:exported="false" >
+369-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\1d4b8a4caa0d0798b6a2fb3d69328b21\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:32:13-37
+370        </receiver>
+371
+372        <service
+372-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\1d4b8a4caa0d0798b6a2fb3d69328b21\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:35:9-38:40
+373            android:name="com.google.android.gms.measurement.AppMeasurementService"
+373-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\1d4b8a4caa0d0798b6a2fb3d69328b21\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:36:13-84
+374            android:enabled="true"
+374-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\1d4b8a4caa0d0798b6a2fb3d69328b21\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:37:13-35
+375            android:exported="false" />
+375-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\1d4b8a4caa0d0798b6a2fb3d69328b21\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:38:13-37
+376        <service
+376-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\1d4b8a4caa0d0798b6a2fb3d69328b21\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:39:9-43:72
+377            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+377-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\1d4b8a4caa0d0798b6a2fb3d69328b21\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:40:13-87
+378            android:enabled="true"
+378-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\1d4b8a4caa0d0798b6a2fb3d69328b21\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:41:13-35
+379            android:exported="false"
+379-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\1d4b8a4caa0d0798b6a2fb3d69328b21\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:42:13-37
+380            android:permission="android.permission.BIND_JOB_SERVICE" />
+380-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\eloy_\.gradle\caches\transforms-3\1d4b8a4caa0d0798b6a2fb3d69328b21\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:43:13-69
+381        <!--
+382         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+383         with the application context. This config is merged in with the host app's manifest,
+384         but there can only be one provider with the same authority activated at any given
+385         point; so if the end user has two or more different apps that use Facebook SDK, only the
+386         first one will be able to use the provider. To work around this problem, we use the
+387         following placeholder in the authority to identify each host application as if it was
+388         a completely different provider.
+389        -->
+390        <provider
+390-->[com.facebook.android:facebook-core:4.42.0] C:\Users\eloy_\.gradle\caches\transforms-3\5af7e8bee5d07f1240ba0fcdcb247e56\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:39:9-42:40
+391            android:name="com.facebook.internal.FacebookInitProvider"
+391-->[com.facebook.android:facebook-core:4.42.0] C:\Users\eloy_\.gradle\caches\transforms-3\5af7e8bee5d07f1240ba0fcdcb247e56\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:40:13-70
+392            android:authorities="com.cataplus.facturacionycatalogospdf.FacebookInitProvider"
+392-->[com.facebook.android:facebook-core:4.42.0] C:\Users\eloy_\.gradle\caches\transforms-3\5af7e8bee5d07f1240ba0fcdcb247e56\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:41:13-72
+393            android:exported="false" />
+393-->[com.facebook.android:facebook-core:4.42.0] C:\Users\eloy_\.gradle\caches\transforms-3\5af7e8bee5d07f1240ba0fcdcb247e56\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:42:13-37
+394
+395        <receiver
+395-->[com.facebook.android:facebook-core:4.42.0] C:\Users\eloy_\.gradle\caches\transforms-3\5af7e8bee5d07f1240ba0fcdcb247e56\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:44:9-50:20
+396            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+396-->[com.facebook.android:facebook-core:4.42.0] C:\Users\eloy_\.gradle\caches\transforms-3\5af7e8bee5d07f1240ba0fcdcb247e56\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:45:13-86
+397            android:exported="false" >
+397-->[com.facebook.android:facebook-core:4.42.0] C:\Users\eloy_\.gradle\caches\transforms-3\5af7e8bee5d07f1240ba0fcdcb247e56\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:46:13-37
+398            <intent-filter>
+398-->[com.facebook.android:facebook-core:4.42.0] C:\Users\eloy_\.gradle\caches\transforms-3\5af7e8bee5d07f1240ba0fcdcb247e56\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:47:13-49:29
+399                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+399-->[com.facebook.android:facebook-core:4.42.0] C:\Users\eloy_\.gradle\caches\transforms-3\5af7e8bee5d07f1240ba0fcdcb247e56\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:17-95
+399-->[com.facebook.android:facebook-core:4.42.0] C:\Users\eloy_\.gradle\caches\transforms-3\5af7e8bee5d07f1240ba0fcdcb247e56\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:25-92
+400            </intent-filter>
+401        </receiver>
+402
+403        <provider
+403-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:30:9-36:35
+404            android:name="androidx.work.impl.WorkManagerInitializer"
+404-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:31:13-69
+405            android:authorities="com.cataplus.facturacionycatalogospdf.workmanager-init"
+405-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:32:13-68
+406            android:directBootAware="false"
+406-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:33:13-44
+407            android:exported="false"
+407-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:34:13-37
+408            android:multiprocess="true" />
+408-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:35:13-40
+409
+410        <service
+410-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:38:9-43:35
+411            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+411-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:39:13-88
+412            android:directBootAware="false"
+412-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:40:13-44
+413            android:enabled="@bool/enable_system_alarm_service_default"
+413-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:41:13-72
+414            android:exported="false" />
+414-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:42:13-37
+415        <service
+415-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:44:9-50:35
+416            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+416-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:45:13-84
+417            android:directBootAware="false"
+417-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:46:13-44
+418            android:enabled="@bool/enable_system_job_service_default"
+418-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:47:13-70
+419            android:exported="true"
+419-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:48:13-36
+420            android:permission="android.permission.BIND_JOB_SERVICE" />
+420-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:49:13-69
+421
+422        <receiver
+422-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:52:9-57:35
+423            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+423-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:53:13-88
+424            android:directBootAware="false"
+424-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:54:13-44
+425            android:enabled="true"
+425-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:55:13-35
+426            android:exported="false" />
+426-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:56:13-37
+427        <receiver
+427-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:58:9-68:20
+428            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+428-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:59:13-106
+429            android:directBootAware="false"
+429-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:60:13-44
+430            android:enabled="false"
+430-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:61:13-36
+431            android:exported="false" >
+431-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:62:13-37
+432            <intent-filter>
+432-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:64:13-67:29
+433                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+433-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:65:17-87
+433-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:65:25-84
+434                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+434-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:66:17-90
+434-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:66:25-87
+435            </intent-filter>
+436        </receiver>
+437        <receiver
+437-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:69:9-79:20
+438            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+438-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:70:13-104
+439            android:directBootAware="false"
+439-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:71:13-44
+440            android:enabled="false"
+440-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:72:13-36
+441            android:exported="false" >
+441-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:73:13-37
+442            <intent-filter>
+442-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:75:13-78:29
+443                <action android:name="android.intent.action.BATTERY_OKAY" />
+443-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:76:17-77
+443-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:76:25-74
+444                <action android:name="android.intent.action.BATTERY_LOW" />
+444-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:77:17-76
+444-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:77:25-73
+445            </intent-filter>
+446        </receiver>
+447        <receiver
+447-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:80:9-90:20
+448            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+448-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:81:13-104
+449            android:directBootAware="false"
+449-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:82:13-44
+450            android:enabled="false"
+450-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:83:13-36
+451            android:exported="false" >
+451-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:84:13-37
+452            <intent-filter>
+452-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:86:13-89:29
+453                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+453-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:87:17-83
+453-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:87:25-80
+454                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+454-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:88:17-82
+454-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:88:25-79
+455            </intent-filter>
+456        </receiver>
+457        <receiver
+457-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:91:9-100:20
+458            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+458-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:92:13-103
+459            android:directBootAware="false"
+459-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:93:13-44
+460            android:enabled="false"
+460-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:94:13-36
+461            android:exported="false" >
+461-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:95:13-37
+462            <intent-filter>
+462-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:97:13-99:29
+463                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+463-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:98:17-79
+463-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:98:25-76
+464            </intent-filter>
+465        </receiver>
+466        <receiver
+466-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:101:9-112:20
+467            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+467-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:102:13-88
+468            android:directBootAware="false"
+468-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:103:13-44
+469            android:enabled="false"
+469-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:104:13-36
+470            android:exported="false" >
+470-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:105:13-37
+471            <intent-filter>
+471-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:107:13-111:29
+472                <action android:name="android.intent.action.BOOT_COMPLETED" />
+472-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:108:17-79
+472-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:108:25-76
+473                <action android:name="android.intent.action.TIME_SET" />
+473-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:109:17-73
+473-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:109:25-70
+474                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+474-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:110:17-81
+474-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:110:25-78
+475            </intent-filter>
+476        </receiver>
+477        <receiver
+477-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:113:9-122:20
+478            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+478-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:114:13-99
+479            android:directBootAware="false"
+479-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:115:13-44
+480            android:enabled="@bool/enable_system_alarm_service_default"
+480-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:116:13-72
+481            android:exported="false" >
+481-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:117:13-37
+482            <intent-filter>
+482-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:119:13-121:29
+483                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+483-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:120:17-98
+483-->[androidx.work:work-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\0a91a22b6ac2d1f1711b393bf7c4b884\transformed\work-runtime-2.1.0\AndroidManifest.xml:120:25-95
+484            </intent-filter>
+485        </receiver>
+486
+487        <service
+487-->[androidx.room:room-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\e02f3e53e4fb03ef85f920f50ef94e59\transformed\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+488            android:name="androidx.room.MultiInstanceInvalidationService"
+488-->[androidx.room:room-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\e02f3e53e4fb03ef85f920f50ef94e59\transformed\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+489            android:exported="false" />
+489-->[androidx.room:room-runtime:2.1.0] C:\Users\eloy_\.gradle\caches\transforms-3\e02f3e53e4fb03ef85f920f50ef94e59\transformed\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+490
+491        <provider
+491-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\1afb43d0adcf0ac413da25418180d058\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+492            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+492-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\1afb43d0adcf0ac413da25418180d058\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+493            android:authorities="com.cataplus.facturacionycatalogospdf.lifecycle-process"
+493-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\1afb43d0adcf0ac413da25418180d058\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+494            android:exported="false"
+494-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\1afb43d0adcf0ac413da25418180d058\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+495            android:multiprocess="true" />
+495-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\eloy_\.gradle\caches\transforms-3\1afb43d0adcf0ac413da25418180d058\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+496
+497        <meta-data
+497-->[com.android.billingclient:billing:4.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\86876696abcf3df27da9cc6893ac2aca\transformed\jetified-billing-4.0.0\AndroidManifest.xml:13:9-15:37
+498            android:name="com.google.android.play.billingclient.version"
+498-->[com.android.billingclient:billing:4.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\86876696abcf3df27da9cc6893ac2aca\transformed\jetified-billing-4.0.0\AndroidManifest.xml:14:13-73
+499            android:value="4.0.0" />
+499-->[com.android.billingclient:billing:4.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\86876696abcf3df27da9cc6893ac2aca\transformed\jetified-billing-4.0.0\AndroidManifest.xml:15:13-34
+500
+501        <activity
+501-->[com.android.billingclient:billing:4.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\86876696abcf3df27da9cc6893ac2aca\transformed\jetified-billing-4.0.0\AndroidManifest.xml:17:9-21:75
+502            android:name="com.android.billingclient.api.ProxyBillingActivity"
+502-->[com.android.billingclient:billing:4.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\86876696abcf3df27da9cc6893ac2aca\transformed\jetified-billing-4.0.0\AndroidManifest.xml:18:13-78
+503            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+503-->[com.android.billingclient:billing:4.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\86876696abcf3df27da9cc6893ac2aca\transformed\jetified-billing-4.0.0\AndroidManifest.xml:19:13-96
+504            android:exported="false"
+504-->[com.android.billingclient:billing:4.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\86876696abcf3df27da9cc6893ac2aca\transformed\jetified-billing-4.0.0\AndroidManifest.xml:20:13-37
+505            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+505-->[com.android.billingclient:billing:4.0.0] C:\Users\eloy_\.gradle\caches\transforms-3\86876696abcf3df27da9cc6893ac2aca\transformed\jetified-billing-4.0.0\AndroidManifest.xml:21:13-72
+506    </application>
+507
+508</manifest>

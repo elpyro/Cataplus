@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragmento_incluir_producto"
+            android:icon="@drawable/ic_productos"
+            android:title="@string/nuevo_producto" />
+        <item
+            android:id="@+id/contenedor_fragmentos_inventario"
+            android:icon="@drawable/compra"
+            android:title="@string/Inventario" />
+        <item
+            android:id="@+id/contenedorFragment"
+            android:icon="@drawable/ic_baseline_point_of_sale_24"
+            android:title="@string/Factura_Detal" />
+        <item
+            android:id="@+id/contenedor_fragmento_mayor"
+            android:icon="@drawable/inventario"
+            android:title="@string/Factura_Mayor" />
+
+        <item
+            android:id="@+id/fragmento_consultar_clientes"
+            android:icon="@drawable/ic_clientes"
+            android:title="@string/Clientes" />
+
+        <item
+            android:id="@+id/fragmento_reportes"
+            android:icon="@drawable/ic_catalogo"
+            android:title="@string/Reportes" />
+        <item
+            android:id="@+id/fragmento_Registros"
+            android:icon="@drawable/ic_baseline_receipt_long_24"
+            android:title="@string/Registro" />
+    </group>
+
+    <item android:title="@string/Configuracion">
+    <menu>
+        <item
+            android:id="@+id/activity_login"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="@string/Login" />
+
+        <item
+            android:id="@+id/fragmentEmpresa"
+            android:icon="@drawable/ic_empresa"
+            android:title="@string/Empresa" />
+
+        <item
+            android:id="@+id/settingsFragment"
+            android:icon="@drawable/ic_preferencias"
+            android:title="@string/Configuracion" />
+<!--        <item-->
+<!--            android:id="@+id/suscripcion"-->
+<!--            android:icon="@drawable/ic_baseline_subscriptions_24"-->
+<!--            android:title="Suscripcion" />-->
+
+    </menu>
+    </item>
+
+
+</menu>

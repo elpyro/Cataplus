@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.cataplus.facturacionycatalogospdf.ui.home.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_fragmento_consultar_productos"
+            app:destination="@id/fragmento_consultar_productos" />
+    </fragment>
+
+
+
+
+    <fragment
+        android:id="@+id/fragmentEmpresa"
+        android:name="com.cataplus.facturacionycatalogospdf.FragmentEmpresa"
+        android:label="@string/Datos_empresa"
+        tools:layout="@layout/fragment_empresa" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.cataplus.facturacionycatalogospdf.SettingsFragment"
+        android:label="@string/Preferencias"
+        >
+        <action
+            android:id="@+id/action_settingsFragment_pop"
+            app:popUpTo="@id/settingsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/factura_detal"
+        android:name="fragmentos.Factura_detal"
+        android:label="@string/Venta_Detal"
+        tools:layout="@layout/fragment_factura_detal" >
+        <action
+            android:id="@+id/action_factura_detal_to_fragment_factura_pdf"
+            app:destination="@id/fragment_factura_pdf" />
+        <action
+            android:id="@+id/action_factura_detal_to_fragmento_consultar_clientes"
+            app:destination="@id/fragmento_consultar_clientes" />
+    </fragment>
+    <fragment
+        android:id="@+id/contenedorFragment"
+        android:name="fragmentos.ContenedorFragment"
+        android:label="@string/Venta_Detal"
+        tools:layout="@layout/fragment_contenedor" />
+
+    <fragment
+        android:id="@+id/fragmento_Registros"
+        android:name="com.cataplus.facturacionycatalogospdf.Fragmento_Registros"
+        android:label="@string/Registro"
+        tools:layout="@layout/fragment_fragmento__registros" >
+        <action
+            android:id="@+id/action_fragmento_Registros_to_fragmento_registro_editar"
+            app:destination="@id/fragmento_registro_editar" />
+    </fragment>
+    <fragment
+        android:id="@+id/frangmento_factura_mayor_inventario"
+        android:name="com.cataplus.facturacionycatalogospdf.ui.factura_mayor.fragmentos.Frangmento_factura_mayor_inventario"
+        android:label="@string/Venta_Mayor"
+        tools:layout="@layout/fragment_frangmento_factura_mayor_inventario">
+        <action
+            android:id="@+id/action_frangmento_factura_mayor_inventario_to_fragmento_incluir_producto"
+            app:destination="@id/fragmento_incluir_producto" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmento_factura_mayor_detalle"
+        android:name="com.cataplus.facturacionycatalogospdf.ui.factura_mayor.fragmentos.Fragmento_factura_mayor_detalle"
+        android:label="@string/Venta_Mayor"
+        tools:layout="@layout/fragment_fragmento_factura_mayor_detalle" >
+        <action
+            android:id="@+id/action_fragmento_factura_mayor_detalle_to_fragmento_consultar_clientes"
+            app:destination="@id/fragmento_consultar_clientes" />
+    </fragment>
+    <fragment
+        android:id="@+id/contenedor_fragmento_mayor"
+        android:name="com.cataplus.facturacionycatalogospdf.ui.factura_mayor.fragmentos.Contenedor_fragmento_mayor"
+        android:label="@string/Venta_Mayor"
+        tools:layout="@layout/fragment_contenedor_fragmento_mayor" />
+    <fragment
+        android:id="@+id/fragmento_registro_editar"
+        android:name="com.cataplus.facturacionycatalogospdf.Fragmento_registro_editar"
+        android:label="@string/Editar_Factuar"
+        tools:layout="@layout/fragment_fragmento_registro_editar" >
+        <action
+            android:id="@+id/action_fragmento_registro_editar_to_fragmento_registro_editar_producto"
+            app:destination="@id/fragmento_registro_editar_producto" />
+        <action
+            android:id="@+id/action_fragmento_registro_editar_to_fragmento_Registros"
+            app:destination="@id/fragmento_Registros" />
+        <action
+            android:id="@+id/action_fragmento_registro_editar_to_fragment_factura_pdf"
+            app:destination="@id/fragment_factura_pdf" />
+        <action
+            android:id="@+id/action_fragmento_registro_editar_to_fragemento_registro_editar_agregarProducto"
+            app:destination="@id/fragemento_registro_editar_agregarProducto" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmento_registro_editar_producto"
+        android:name="com.cataplus.facturacionycatalogospdf.Fragmento_registro_editar_producto"
+        android:label="@string/Editar_Producto"
+        tools:layout="@layout/fragment_fragmento_registro_editar_producto" >
+        <action
+            android:id="@+id/action_fragmento_registro_editar_producto_pop"
+            app:popUpTo="@id/fragmento_registro_editar_producto"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_factura_pdf"
+        android:name="com.cataplus.facturacionycatalogospdf.Fragment_factura_pdf"
+        android:label="@string/Factura_PDF"
+        tools:layout="@layout/fragment_factura_pdf" />
+    <fragment
+        android:id="@+id/fragemento_registro_editar_agregarProducto"
+        android:name="com.cataplus.facturacionycatalogospdf.Fragemento_registro_editar_agregarProducto"
+        android:label="@string/Agregar_a_factura"
+        tools:layout="@layout/fragment_fragemento_registro_editar_agregar_producto" >
+        <action
+            android:id="@+id/action_fragemento_registro_editar_agregarProducto_pop"
+            app:popUpTo="@id/fragemento_registro_editar_agregarProducto"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_fragemento_registro_editar_agregarProducto_to_fragmento_incluir_producto"
+            app:destination="@id/fragmento_incluir_producto" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmento_catalogos"
+        android:name="com.cataplus.facturacionycatalogospdf.Fragmento_catalogos"
+        android:label="Catalogos"
+        tools:layout="@layout/fragment_fragmento_catalogos" />
+    <fragment
+        android:id="@+id/fragmento_consultar_clientes"
+        android:name="com.cataplus.facturacionycatalogospdf.Fragmento_consultar_clientes"
+        android:label="@string/Clientes"
+        tools:layout="@layout/fragment_fragmento_consultar_clientes" >
+        <action
+            android:id="@+id/action_fragmento_consultar_clientes_pop"
+            app:popUpTo="@id/fragmento_consultar_clientes"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_fragmento_consultar_clientes_to_fragmento_agregar_cliente"
+            app:destination="@id/fragmento_agregar_cliente" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmento_agregar_cliente"
+        android:name="com.cataplus.facturacionycatalogospdf.Fragmento_agregar_cliente"
+        android:label="@string/Cliente"
+        tools:layout="@layout/fragment_fragmento_agregar_cliente" >
+        <action
+            android:id="@+id/action_fragmento_agregar_cliente_pop"
+            app:popUpTo="@id/fragmento_agregar_cliente"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_fragmento_agregar_cliente_to_fragmento_consultar_clientes"
+            app:destination="@id/fragmento_consultar_clientes" />
+        <action
+            android:id="@+id/action_fragmento_agregar_cliente_self"
+            app:destination="@id/fragmento_agregar_cliente" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmento_consultar_productos"
+        android:name="com.cataplus.facturacionycatalogospdf.Fragmento_consultar_productos"
+        android:label="@string/Mis_Productos"
+        tools:layout="@layout/fragment_fragmento_consultar_productos" >
+        <action
+            android:id="@+id/action_fragmento_consultar_productos_to_fragmento_incluir_producto"
+            app:destination="@id/fragmento_incluir_producto" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmento_incluir_producto"
+        android:name="com.cataplus.facturacionycatalogospdf.Fragmento_incluir_producto"
+        android:label="@string/Producto"
+        tools:layout="@layout/fragment_fragmento_incluir_producto" />
+    <fragment
+        android:id="@+id/fragmento_factura_detal"
+        android:name="fragmentos.Fragmento_factura_detal"
+        android:label="@string/Factura_Detal" >
+        <action
+            android:id="@+id/action_fragmento_factura_detal_to_fragmento_incluir_producto"
+            app:destination="@id/fragmento_incluir_producto" />
+    </fragment>
+
+    <activity
+        android:id="@+id/activity_login"
+        android:name="com.cataplus.facturacionycatalogospdf.Activity_login"
+        android:label="Login"
+        tools:layout="@layout/activity_login" />
+    <fragment
+        android:id="@+id/contenedor_fragmentos_inventario"
+        android:name="inventario.fragmentos.Contenedor_fragmentos_inventario"
+        android:label="@string/Inventario"
+        tools:layout="@layout/fragment_contenedor_fragmentos_inventario" />
+    <activity
+        android:id="@+id/suscripcion"
+        android:name="com.cataplus.facturacionycatalogospdf.Suscripcion"
+        android:label="activity_suscripcion"
+        tools:layout="@layout/activity_suscripcion" />
+    <fragment
+        android:id="@+id/fragmento_reportes"
+        android:name="com.cataplus.facturacionycatalogospdf.Fragmento_reportes"
+        android:label="@string/Reportes"
+        tools:layout="@layout/fragment_fragmento_reportes" >
+        <action
+            android:id="@+id/action_fragmento_reportes_to_fragmento_catalogos"
+            app:destination="@id/fragmento_catalogos" />
+        <action
+            android:id="@+id/action_fragmento_reportes_to_fragmento_reporte_compra_venta"
+            app:destination="@id/fragmento_reporte_compra_venta" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmento_reporte_compra_venta"
+        android:name="com.cataplus.facturacionycatalogospdf.Utils.Fragmento_reporte_compra_venta"
+        android:label="@string/Informe_compra_venta"
+        tools:layout="@layout/fragment_fragmento_reporte_compra_venta" />
+
+
+</navigation>

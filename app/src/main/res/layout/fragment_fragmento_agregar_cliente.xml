@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context="com.cataplus.facturacionycatalogospdf.Fragmento_agregar_cliente">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editText_incluir_nombre_empresa"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="0.2"
+                        android:autofillHints="nombre_producto"
+                        android:ems="10"
+                        android:hint="@string/nombre"
+                        android:inputType="textCapSentences|textAutoCorrect|textPersonName"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/secondary_text"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/textView_documento_empresa"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="0.2"
+                        android:ems="10"
+                        android:hint="@string/Documento"
+                        android:inputType="textCapSentences|textAutoCorrect|textPersonName"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/secondary_text"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    tools:ignore="Autofill">
+
+                    <EditText
+                        android:id="@+id/editText_correo_empresa"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="0.2"
+                        android:ems="10"
+                        android:hint="@string/Correo"
+                        android:inputType="textEmailSubject"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/secondary_text"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/textView_telefono2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:layout_weight="0.1"
+                        android:ems="10"
+
+                        android:gravity="center"
+                        android:hint="@string/Codigo"
+                        android:inputType="numberSigned"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/secondary_text"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/editText_telefono1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="0.3"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="@string/Telefono1"
+                        android:inputType="numberSigned"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/secondary_text"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editText_pais"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="0.2"
+                        android:ems="10"
+                        android:hint="@string/Pais"
+                        android:inputType="textCapSentences|textAutoCorrect|textPersonName"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/secondary_text"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/editText_ciudad_empresa"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="0.2"
+                        android:ems="10"
+                        android:hint="@string/Ciudad"
+                        android:inputType="textCapSentences|textAutoCorrect|textPersonName"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/secondary_text"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    tools:ignore="Autofill">
+
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/editTextTextMultiLine_direccion_empresa"
+                                android:layout_width="match_parent"
+                                android:layout_height="115dp"
+                                android:ems="10"
+                                android:gravity="start|top"
+                                android:hint="@string/Direccion"
+                                android:inputType="textMultiLine|textCapSentences|textAutoCorrect|textPersonName"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/secondary_text"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_ulitma_modificacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/textView_label_actualizacion1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="0.2"
+                        android:gravity="right"
+                        android:text="@string/ultima_actulizacion"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/textView_fecha1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:layout_weight="0.2"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/textView_actulizacion_usuario1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:layout_weight="0.2"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginRight="120dp"
+                    android:orientation="horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayor_eliminar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginRight="120dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/Eliminar" />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        ads:adSize="MEDIUM_RECTANGLE"
+        ads:adUnitId="ca-app-pub-5390342068041092/6838582039"></com.google.android.gms.ads.AdView>
+</LinearLayout>

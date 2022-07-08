@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CATAPLUS</string>
+    <string name="Catalogos_y_facturacion">Catalogos y Facturación</string>
+    <string name="Bienvenido">Bienvenid@</string>
+    <string name="agregar_producto">Agregar Producto</string>
+    <string name="nuevo_producto">Nuevo Producto</string>
+    <string name="nuevo_cliente">Nuevo Cliente</string>
+    <string name="agregar_carrito">Agregar al Carrito de Compras</string>
+    <string name="nombre">Nombre</string>
+    <string name="codigo">Codigo</string>
+    <string name="Categoria">Categoria</string>
+    <string name="Rastreo_de_cantidad">Cantidad</string>
+    <string name="Precios">Precios</string>
+    <string name="Precio">Precio</string>
+    <string name="Costo">Costo</string>
+    <string name="Mayor">Mayor</string>Catalogs and online billing for wholesale and retail sales (offline)
+    <string name="Detal">Detal</string>
+    <string name="VentasDetal">Ventas Detal</string>
+    <string name="VentasMayor">Ventas Mayor</string>
+    <string name="Ganancias">Ganancias</string>
+    <string name="estado">Estado</string>
+    <string name="Fotos">Fotos</string>
+    <string name="Foto">Foto</string>
+    <string name="Foto1">Foto 1</string>
+    <string name="Foto2">Foto 2</string>
+    <string name="Foto3">Foto 3</string>
+    <string name="Foto4">Foto 4 </string>
+    <string name="Marca">Descripción</string>
+    <string name="Talla">Talla</string>
+    <string name="Color">Color</string>
+    <string name="Medida">Medida</string>
+    <string name="Guardar">Guardar</string>
+    <string name="Escanear">Escanear</string>
+    <string name="Escaner">Escaner</string>
+    <string name="Activo">Activo</string>
+    <string name="Cantidad">Cantidad:</string>
+    <string name="MonedaMonto">$</string>
+    <string name="proveedor">Proveedor/Marca</string>
+    <string name="Buscar">Buscar</string>
+    <string name="Eliminar">Eliminar</string>
+    <string name="ultima_actulizacion">Ultima Actulización: </string>
+    <string name="Datos_empresa">Datos de Empresa</string>
+    <string name="Logo">Logotipo</string>
+    <string name="Documento">Documento</string>
+    <string name="Correo">Correo</string>
+    <string name="Dominio">Dominio</string>
+    <string name="Telefono1">Telefono</string>
+    <string name="Telefono2">Telefono 2</string>
+    <string name="Codigo">Codigo</string>
+    <string name="Pais">País</string>
+    <string name="Ciudad">Ciudad</string>
+    <string name="Direccion">Dirección</string>
+    <string name="Agregar_cliente">Agregar Cliente</string>
+    <string name="Productos">Productos</string>
+    <string name="Informe_compra_venta">Reporte compra/venta</string>
+    <string name="Compra">Compra</string>
+    <string name="Venta">Venta</string>
+    <string name="Compra_Venta">Compra/Venta</string>
+    <string name="Producto">Producto</string>
+    <string name="Mis_Productos">Mis Productos</string>
+    <string name="Clientes">Clientes</string>
+    <string name="Empresa">Empresa</string>
+    <string name="Login">Login</string>
+    <string name="Factura">Facturas</string>
+    <string name="Catalogo">Catalogo</string>
+    <string name="Configuracion">Configuración</string>
+    <string name="Factura_Detal">Factura Detal</string>
+    <string name="Venta_Detal">Venta Detal</string>
+    <string name="Venta_Mayor">Venta Mayor</string>
+    <string name="Factura_pendiente">Factura Pendiente: </string>
+    <string name="Cliente_">Cliente: </string>
+    <string name="Factura_Mayor">Factura Mayor</string>
+    <string name="Creado_por">Creado por:</string>
+    <string name="catalogo_mayor">Catalogo Mayor</string>
+    <string name="catalogo_detal">Catalogo Detal</string>
+    <string name="Reportes">Reportes</string>
+    <string name="Desde">Desde:</string>
+    <string name="Hasta">Hasta:</string>
+    <string name="crear_pdf">Crear Pdf</string>
+    <string name="Inventario">Compra</string>
+    <string name="Mi_Inventario">Mi inventario</string>
+    <string name="Inventario_existencia">Inventario</string>
+    <string name="Factura_">Factura</string>
+    <string name="Descuento">Descuento</string>
+    <string name="Impuesto">Impuesto</string>
+    <string name="Envio">Envio</string>
+    <string name="Registrar_compra">Registrar Compra</string>
+    <string name="Registrar_mayor">Registrar Venta Mayor</string>
+    <string name="Registrar_detal">Registrar Venta Detal</string>
+    <string name="informacion_superior">Información Superior</string>
+    <string name="informacion_inferior">Información Inferior</string>
+    <string name="cliente_anonimo">Cliente Anonimo</string>
+    <string name="registro_guardado">Registro Guardado</string>
+    <string name="Total">Total</string>
+    <string name="Barras">Codigo Barras</string>
+    <string name="Cant">Cant</string>
+    <string name="Registro">Registro</string>
+    <string name="Cliente">Cliente</string>
+    <string name="Fecha">Fecha</string>
+    <string name="Anonimo">Anonimo</string>
+    <string name="Preferencias">Preferencias</string>
+    <string name="Consultar_productos">Consultar Productos</string>
+    <string name="Detalle">Detalle</string>
+    <string name="Inventario_Mayor">Inventario Mayor</string>
+    <string name="Editar_Factuar">Editar Factura</string>
+    <string name="Editar_Producto">Editar Producto</string>
+    <string name="Factura_PDF">Factura PDF</string>
+    <string name="Agregar_a_factura">Agregar a Factura</string>
+    <string name="Linterna">Linterna</string>
+    <string name="Autofoco">AutoEnfoque</string>
+    <string name="Imagen">Imagen</string>
+    <string name="Imagen_no_encontrada">Imagen no encontrada</string>
+    <string name="SubTotal">SubTotal</string>
+    <string name="Reporte_ventas_mayoristas">Reporte Ventas Mayoristas</string>
+    <string name="Reporte_ventas_detal">Reporte Ventas Detal</string>
+    <string name="Reporte_compra">Reporte De Compras</string>
+    <string name="Reporte_ganancias">Reporte de Ganancias</string>
+    <string name="No_hay_registros_para_mostar">No hay registros para mostrar</string>
+    <string name="Factura_detal_actual">Factura Detal Actual</string>
+    <string name="Factura_mayor_actual">Factura Mayor Actual</string>
+    <string name="Error_creando_pdf">Error Creando PDF</string>
+    <string name="Base_de_datos_recuperada">Base de Datos Recuperada</string>
+    <string name="Codigo_no_exitente">Codigo No Existente</string>
+    <string name="Permiso_camara_necesario">Permiso de Camara Necesario para Inciciar Scanner</string>
+    <string name="Desea_crear_producto">¿Desea crear este producto?</string>
+    <string name="Si">Sí</string>
+    <string name="No">No</string>
+    <string name="Se_requieren_permisos">Se requiere permiso de camara y almacenamiento</string>
+    <string name="Se_requieren_permiso_almacenamiento">Se requiere permiso de almacenamiento</string>
+    <string name="El_nombre_empresa_no_vacio">El nombre de empresa no puede estar vacio</string>
+    <string name="Requerido">Requerido</string>
+    <string name="Registro_modificado">Registro Modificado</string>
+    <string name="Debe_ingresar_nombre_cliente">Debe ingresar el nombre del cliente</string>
+    <string name="Productos_agregados">Productos agregados</string>
+    <string name="Registro_eliminado">Registro eliminado</string>
+    <string name="No_existe_articulo">No existe el producto</string>
+    <string name="PDF_guardado_con_exito">PDF Guardado con Exito en:</string>
+    <string name="No_puede_compartir_pdf">No puede compartir el PDF</string>
+    <string name="WhatsApp_no_instalado">WhatsApp No Instalado</string>
+    <string name="Cargando_Publicidad">Cargando Publicidad</string>
+    <string name="Error_guardando">Error Guardando</string>
+    <string name="Creando_pdf">Creando PDF</string>
+    <string name="Esta_apunto_de_eliminar">Está apunto de elimininar la selección actual, ¿Esta Seguro?</string>
+    <string name="Atencion">¡Atención!</string>
+    <string name="Seleccionar_imagen">Seleccionar Imagen</string>
+    <string name="Camara">Camara</string>
+    <string name="Galeria">Galeria</string>
+    <string name="Apunto_eliminar_registro">Está apunto de elimininar el registro, ¿Esta Seguro?</string>
+    <string name="Esta_seguro">¿Está Seguro?</string>
+    <string name="Agregar_producto">Agregar Producto</string>
+
+    <string-array name="medidas">
+        <item>Unidad</item>
+        <item>Kilogramo</item>
+        <item>Metro</item>
+        <item>Litro</item>
+        <item>Servicio</item>
+    </string-array>
+
+
+    <string-array name="categoria">
+        <item>General</item>
+        <item>Comida</item>
+        <item>Equipos</item>
+        <item>Servicios</item>
+    </string-array>
+
+</resources>

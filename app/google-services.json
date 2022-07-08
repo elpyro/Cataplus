@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "597220732444",
+    "project_id": "cataplus-c2eeb",
+    "storage_bucket": "cataplus-c2eeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597220732444:android:b24c5a09fb922f024779d9",
+        "android_client_info": {
+          "package_name": "com.cataplus.facturacionycatalogospdf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597220732444-igjgu4hpga3ntp3mpui5lvhimq6g8gu6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cataplus.facturacionycatalogospdf",
+            "certificate_hash": "fec4034c2baf1a94cfe85cf468b93feafd9d2c44"
+          }
+        },
+        {
+          "client_id": "597220732444-ieqoipd4bcoo7pg0pgk9km2116cio6eg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHSqbarCG8QiTRAQIDPvV263mvrgtM8iU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597220732444-ieqoipd4bcoo7pg0pgk9km2116cio6eg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,51 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory app:title="@string/Factura_">
+
+        <EditTextPreference
+            android:id="@+id/descuent_preferencia"
+            android:inputType="numberDecimal"
+            app:key="descuento"
+            app:title="@string/Descuento"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            android:inputType="numberDecimal"
+            app:key="impuesto"
+            app:title="@string/Impuesto"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            android:inputType="numberDecimal"
+            app:key="envio"
+            app:title="@string/Envio"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+
+            app:key="informacion_superior"
+            app:title="@string/informacion_superior"
+            />
+
+        <EditTextPreference
+
+            app:key="informacion_inferior"
+            app:title="@string/informacion_inferior"
+            />
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/Escanear">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="linterna"
+            android:title="@string/Linterna" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="autofoco"
+            android:title="@string/Autofoco" />
+    </PreferenceCategory>
+
+
+
+
+</PreferenceScreen>

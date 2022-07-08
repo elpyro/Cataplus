@@ -1,0 +1,244 @@
+<resources>
+
+    <string name="facebook_application_id">198011799076141</string>
+    <string name="facebook_login_protocol_schema">fb198011799076141</string>
+
+
+    <!--    <string name="facebook_application_id" translatable="false">291363959171550</string>-->
+    <!--    <string name="facebook_login_protocol_schema" translatable="false">fb291363959171550</string>-->
+
+    <string name="app_name">CATAPLUS</string>
+    <string name="Catalogos_y_facturacion">Catalogs and Billing</string>
+    <string name="Bienvenido">Welcome</string>
+    <string name="agregar_producto">Add product</string>
+    <string name="nuevo_producto">New product</string>
+    <string name="nuevo_cliente">New client</string>
+    <string name="agregar_carrito">Add to cart</string>
+    <string name="nombre">Name</string>
+    <string name="codigo">Code</string>
+    <string name="Categoria">Category</string>
+    <string name="Rastreo_de_cantidad">Quantity</string>
+    <string name="Precios">Prices</string>
+    <string name="Precio">Price</string>
+    <string name="Costo">Cost</string>
+    <string name="Mayor">Wholesale</string>
+    <string name="Detal">Retail</string>
+    <string name="VentasDetal">Retail</string>
+    <string name="VentasMayor">Wholesale</string>
+    <string name="Ganancias">Profits</string>
+    <string name="estado">Condition</string>
+    <string name="Fotos">Photos</string>
+    <string name="Foto">Photo</string>
+    <string name="Foto1">Photo</string>
+    <string name="Foto2">Foto 2</string>
+    <string name="Foto3">Foto 3</string>
+    <string name="Foto4">Foto 4 </string>
+    <string name="Marca">Description</string>
+    <string name="Talla">Size</string>
+    <string name="Color">Color</string>
+    <string name="Medida">Measure</string>
+    <string name="Guardar">Save</string>
+    <string name="Escanear">Scan</string>
+    <string name="Escaner">Scanner</string>
+    <string name="Activo">Active</string>
+    <string name="Cantidad">Quantity::</string>
+    <string name="MonedaMonto">$</string>
+    <string name="proveedor">Supplier / Brand</string>
+    <string name="Buscar">Look for</string>
+    <string name="Eliminar">Remove</string>
+    <string name="ultima_actulizacion">Last Actulization: </string>
+    <string name="Datos_empresa">Enterprise data</string>
+    <string name="Logo">Logo</string>
+    <string name="Documento">Document</string>
+    <string name="Correo">Mail</string>
+    <string name="Dominio">Domain</string>
+    <string name="Telefono1">Phone</string>
+    <string name="Telefono2">Phone 2</string>
+    <string name="Codigo">Code</string>
+    <string name="Pais">Country</string>
+    <string name="Ciudad">Town</string>
+    <string name="Direccion">Direction</string>
+    <string name="Agregar_cliente">Add client</string>
+    <string name="Productos">Products</string>
+    <string name="Informe_compra_venta">Report Buy / Sales</string>
+    <string name="Compra">Buy</string>
+    <string name="Venta">Sale</string>
+    <string name="Compra_Venta">Buy and sell</string>
+    <string name="Producto">Product</string>
+    <string name="Mis_Productos">My products</string>
+    <string name="Clientes">Customers</string>
+    <string name="Empresa">Business</string>
+    <string name="Login">Login</string>
+    <string name="Factura">Bill</string>
+    <string name="Catalogo">Catalogue</string>
+    <string name="Configuracion">Setting</string>
+    <string name="Factura_Detal">Retail Bill</string>
+    <string name="Venta_Detal">Retail</string>
+    <string name="Venta_Mayor">Wholesale</string>
+    <string name="Factura_pendiente">Pending Bill: </string>
+    <string name="Cliente_">Client: </string>
+    <string name="Factura_Mayor">Wholesale Bill</string>
+    <string name="Creado_por">Created by:</string>
+    <string name="catalogo_mayor">Wholesale Catalog</string>
+    <string name="catalogo_detal">Retail Catalog</string>
+    <string name="Reportes">Reports</string>
+    <string name="Desde">From:</string>
+    <string name="Hasta">Until:</string>
+    <string name="crear_pdf">Create PDF</string>
+    <string name="Inventario">Buy</string>
+    <string name="Mi_Inventario">My inventory</string>
+    <string name="Inventario_existencia">Inventory</string>
+    <string name="Factura_">Bill</string>
+    <string name="Descuento">Discount</string>
+    <string name="Impuesto">Tax</string>
+    <string name="Envio">Shipment</string>
+    <string name="Registrar_compra">Register Buy</string>
+    <string name="Registrar_mayor">Register Wholesale </string>
+    <string name="Registrar_detal">Register Retail  </string>
+    <string name="informacion_superior">Superior information</string>
+    <string name="informacion_inferior">Bottom information</string>
+    <string name="cliente_anonimo">Anonymous client</string>
+    <string name="registro_guardado">Saved Record</string>
+    <string name="Total">Total</string>
+    <string name="Barras">Barcodes</string>
+    <string name="Cant">Quant.</string>
+    <string name="Registro">Record</string>
+    <string name="Cliente">Client</string>
+    <string name="Fecha">Date</string>
+    <string name="Anonimo">Anonymous</string>
+    <string name="Preferencias">Preferences</string>
+    <string name="Consultar_productos">Consult products</string>
+    <string name="Detalle">Detail</string>
+    <string name="Inventario_Mayor">Wholesale Inventory</string>
+    <string name="Editar_Factuar">Edit Bill</string>
+    <string name="Editar_Producto">Product Edit</string>
+    <string name="Factura_PDF">PDF Bill </string>
+    <string name="Agregar_a_factura">Add to Bill</string>
+    <string name="Linterna">Lantern</string>
+    <string name="Autofoco">Autofocus</string>
+    <string name="Imagen">Image</string>
+    <string name="Imagen_no_encontrada">Image not found</string>
+    <string name="SubTotal">SubTotal</string>
+    <string name="Reporte_ventas_mayoristas">Report Wholesale</string>
+    <string name="Reporte_ventas_detal">Reporte Retail</string>
+    <string name="Reporte_compra">Reporte Buy</string>
+    <string name="Reporte_ganancias">Report Profits</string>
+    <string name="No_hay_registros_para_mostar">There are no records to show</string>
+
+    <string name="Factura_detal_actual">Current Retail Bill</string>
+    <string name="Factura_mayor_actual">Current Wholesale Bill</string>
+    <string name="Error_creando_pdf">Error Creating PDF</string>
+    <string name="Base_de_datos_recuperada">Recovered Database</string>
+    <string name="Codigo_no_exitente">Non-existent code</string>
+    <string name="Permiso_camara_necesario">Camera Permission Needed to Start Scanner</string>
+    <string name="Desea_crear_producto">Do you want to create this product?</string>
+    <string name="Si">Yes</string>
+    <string name="No">No</string>
+    <string name="Se_requieren_permisos">Camera and storage permit required</string>
+    <string name="Se_requieren_permiso_almacenamiento">Storage permit required</string>
+    <string name="El_nombre_empresa_no_vacio">The company name cannot be empty</string>
+    <string name="Requerido">Required</string>
+    <string name="Registro_modificado">Modified Record</string>
+    <string name="Debe_ingresar_nombre_cliente">You must enter the customer\'s name</string>
+    <string name="Productos_agregados">Aggregate Products</string>
+    <string name="Registro_eliminado">Record removed</string>
+    <string name="No_existe_articulo">Product does not exist</string>
+    <string name="PDF_guardado_con_exito">PDF Saved Successfully in:</string>
+    <string name="No_puede_compartir_pdf">Can\'t share the PDF</string>
+    <string name="WhatsApp_no_instalado">WhatsApp Not Installed</string>
+    <string name="Cargando_Publicidad">Loading Advertising</string>
+    <string name="Error_guardando">Saving Error</string>
+    <string name="Creando_pdf">Creating PDF</string>
+    <string name="Esta_apunto_de_eliminar">You are about to delete the current selection, are you sure?</string>
+    <string name="Atencion">Atencion!</string>
+    <string name="Seleccionar_imagen">Select Image</string>
+    <string name="Camara">Camera</string>
+    <string name="Galeria">Gallery</string>
+    <string name="Apunto_eliminar_registro">You are about to delete the record, are you sure?</string>
+    <string name="Esta_seguro">Are you sure?</string>
+    <string name="Agregar_producto">Add Product</string>
+
+    <string-array name="medidas">
+        <item>Unit</item>
+        <item>Kilogram</item>
+        <item>Meter</item>
+        <item>Liter</item>
+        <item>Service</item>
+    </string-array>
+
+
+    <string-array name="categoria">
+        <item>General</item>
+        <item>Comida</item>
+        <item>Equipos</item>
+        <item>Servicios</item>
+    </string-array>
+
+
+    <string name="title_activity_principal">Principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_registrofacturacion_detail_host">
+        RegistrofacturacionDetailHostActivity
+    </string>
+    <string name="title_registrofacturacion_list">Items</string>
+    <string name="title_registrofacturacion_detail">Registro_facturacion Detail</string>
+    <string name="title_activity_login">Activity_login</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="Descripcion">Descripción</string>
+    <string name="title_activity_publicidad">Activity_publicidad</string>
+
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-5390342068041092/1274252406</string>
+    <string name="level_text">Level %1$d</string>
+    <string name="title_activity_inventario_existencia">Compra</string>
+
+
+</resources>

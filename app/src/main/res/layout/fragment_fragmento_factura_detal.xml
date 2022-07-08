@@ -1,0 +1,169 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+   >
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:layout_width="231dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioButton_nombre"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="@string/nombre"
+                             />
+
+                        <RadioButton
+                            android:id="@+id/radioButton_barras"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Codigo"
+                             />
+
+                        <RadioButton
+                            android:id="@+id/radioButton_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ID"
+                             />
+
+                    </RadioGroup>
+
+
+                    <TextView
+                        android:id="@+id/textView_valor_factura"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:foregroundGravity="center"
+                        android:gravity="right"
+                        android:text="0"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editTextText_buscar_fragmento"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:autofillHints="nombre_producto"
+                        android:ems="10"
+                        android:hint="@string/Buscar"
+                        android:inputType="textCapSentences|textPersonName"
+                        android:minHeight="48dp"
+                        
+                        android:textColorHint="@color/secondary_text" />
+
+                    <Button
+                        android:id="@+id/button_buscar"
+                        android:layout_width="50dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="0.1"
+                        app:icon="@drawable/ic_baseline_search_24" />
+                    <Button
+                        android:id="@+id/button_escanear"
+                        android:layout_width="50dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="0.1"
+                        android:onClick="escaner2"
+                        app:icon="@drawable/ic_baseline_qr_code_scanner_24"
+                        />
+
+                    <Button
+                        android:id="@+id/button_borrar_pedido"
+                        android:layout_width="50dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="0.1"
+                        app:icon="@drawable/ic_no_comprar"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycler_facturar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/layout" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton_nuevo_producto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="48dp"
+        android:clickable="true"
+        android:visibility="gone"
+        app:srcCompat="@android:drawable/ic_input_add" />
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="FULL_BANNER"
+
+        android:layout_gravity="bottom"
+        ads:adUnitId="ca-app-pub-5390342068041092/6838582039"></com.google.android.gms.ads.AdView>
+</LinearLayout>
